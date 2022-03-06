@@ -509,6 +509,9 @@ html {
   color: #fff !important;
   background-color: #00c5b4 !important;
   border-color: #00c5b4 !important;
+  margin-bottom : 5px !important;
+  margin-right : 5px !important;
+  border-radius: 5px !important;
 }
 
 .btn-primary:hover {

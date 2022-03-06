@@ -1,88 +1,58 @@
+
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import Resumecontent from "./ResumeContent";
-import ResumePdf from "../../Assets/Resume.pdf";
-import { AiOutlineDownload } from "react-icons/ai";
+import contactImg from "../../Assets/contact.svg";
+import Tilt from "react-parallax-tilt";
 
 function Resume() {
   return (
     <Container fluid className="resume-section">
       <Particle />
       <Container>
-        <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button variant="primary" href={ResumePdf} target="_blank">
-            <AiOutlineDownload />
-            &nbsp;Resume
-          </Button>
-        </Row>
         <Row className="resume">
-          <Col md={6} className="resume-left">
-            {/* <h3 className="resume-title">Experience</h3>
+  
+          <Col md-6 className="resume-center">
+            <h3 className="Resume-title"><strong className="purple">𝗖𝗼𝗻𝘁𝗮𝗰𝘁 𝗺𝗲📲📞</strong></h3>
+
             <Resumecontent
-              title="Team Leader of BookXchanger Project"
-              date="January 2021 - May 2021"
               content={[
-                "Manages all the major task like collecting the resources and ideas to the documentation part of the Project. And worked with team members to improve the features of website.",
-                "Worked on different features of website and mostly the frontend part of BookXchanger website.",
+              
+                "𝗣𝗵𝗼𝗻𝗲 𝗡𝘂𝗺𝗯𝗲𝗿 - 6374658959",
               ]}
-            /> */}
-            <h3 className="resume-title">Extracurricular Activities</h3>
+            />
+  
             <Resumecontent
-              title="In School "
+           
               content={[
-                "Won several Singing competition at school.",
+                "𝗘𝗺𝗮𝗶𝗹 - sithanathanpandiselvi@gmail.com",
               ]}
             />
-             <Resumecontent
-              title=" In College "
+            <Resumecontent
               content={[
-                "Placed Second at the College Level Art Competition.",
+                "𝗚𝗶𝘁𝗛𝘂𝗯 - https://github.com/Pandiselvi3899",
               ]}
             />
-             <Resumecontent
-              title="In School and College"
-              content={[
-                "Won Several Dance Events with School and College.",
-              ]}
-            />
-             <Resumecontent
-              title=" In College "
-              content={[
-                "Have Won Prize in Cooking Without Fire.",
-              ]}
-            />
+
+            <Resumecontent
+           
+           content={[
+             "𝗟𝗶𝗻𝗸𝗲𝗱𝗜𝗻 - https://www.linkedin.com/in/pandi-selvi-7b4652228",
+           ]}
+         />
+           <Resumecontent
+           
+           content={[
+             "𝗟𝗼𝗰𝗮𝘁𝗶𝗼𝗻 - Cumbum,Theni District,TamilNadu",
+           ]}
+         />
           </Col>
-          <Col md={6} className="resume-right">
-            <h3 className="resume-title">Education</h3>
-            <Resumecontent
-              title="Full Stack Developer Course at GUVI "
-              date="2021 - Present"
-              content={[" "]}
-            />
-              <Resumecontent
-              title="Theni Kammavar Sangam College of Technology "
-              date="2016 - 2020"
-              content={[" " ]}
-            />
-            <Resumecontent
-              title="12th BOARD [Angoor Rowther Government Girls Higher Secondary School]"
-              date="2014 - 2016"
-              content={[" "]}
-            />
-            <Resumecontent
-              title="10th BOARD [Angoor Rowther Government Girls Higher Secondary School] "
-              date=" "
-              content={[" "]}
-            />
+          <Col md={4} className="myAvtar">
+            <Tilt>
+              <img src={contactImg} className="img-fluid" alt="contact" />
+            </Tilt>
           </Col>
-        </Row>
-        <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button variant="primary" href={ResumePdf} target="_blank">
-            <AiOutlineDownload />
-            &nbsp;Resume
-          </Button>
         </Row>
       </Container>
     </Container>
@@ -90,3 +60,5 @@ function Resume() {
 }
 
 export default Resume;
+
+
