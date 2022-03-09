@@ -24,6 +24,7 @@ function Footer() {
               <a
                 href="https://www.linkedin.com/in/pandi-selvi-7b4652228"
                 style={{ color: "white" }}
+                target="_blank"
               >
                 <FaLinkedinIn />
               </a>
@@ -32,6 +33,7 @@ function Footer() {
               <a
                 href="https://github.com/Pandiselvi3899"
                 style={{ color: "white" }}
+                target="_blank"
               >
                 <AiFillGithub />
               </a>
@@ -40,6 +42,7 @@ function Footer() {
               <a
                 href="https://sithanathanpandiselvi@gmail.com"
                 style={{ color: "white" }}
+                target="_blank"
               >
                 <AiOutlineMail />
               </a>
