@@ -25,6 +25,7 @@ function Footer() {
                 href="https://www.linkedin.com/in/pandi-selvi-7b4652228"
                 style={{ color: "white" }}
                 target="_blank"
+                rel="noreferrer"
               >
                 <FaLinkedinIn />
               </a>
@@ -34,6 +35,7 @@ function Footer() {
                 href="https://github.com/Pandiselvi3899"
                 style={{ color: "white" }}
                 target="_blank"
+                rel="noreferrer"
               >
                 <AiFillGithub />
               </a>
@@ -43,6 +45,7 @@ function Footer() {
                 href="https://sithanathanpandiselvi@gmail.com"
                 style={{ color: "white" }}
                 target="_blank"
+                rel="noreferrer"
               >
                 <AiOutlineMail />
               </a>
