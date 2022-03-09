@@ -54,7 +54,7 @@ function Home2() {
         <Row>
           <Col md={12} className="home-about-social">
           <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button variant="primary" href="https://drive.google.com/file/d/1969B6tRpdNNCtZbq2sH8mBGJjHXQX2C9/view?usp=sharing" target="_blank">
+          <Button variant="primary" href="https://drive.google.com/file/d/1-OPQCBH1BWXz-8yP5GZUtwAOkhxutKm2/view?usp=sharing" target="_blank">
             <AiOutlineDownload />
             &nbsp;Resume
           </Button>
